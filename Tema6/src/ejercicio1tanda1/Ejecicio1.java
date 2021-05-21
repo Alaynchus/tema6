@@ -22,6 +22,7 @@ public class Ejecicio1 {
 	
 		int[] arr=new int[N];
 		for (int i = 0; i < arr.length; i++) {
+			System.out.println("Hola");
 			System.out.println("Introduce un numero del 0 al 10");
 			num=Consola.leeInt();
 			while (num<0 || num>10) {
